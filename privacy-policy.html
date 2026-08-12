@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我晕 · 隐私政策</title>
+<!--
+  =====================================================================
+  运营者填写指引（本注释仅开发者可见，不会显示在网页上）
+  ---------------------------------------------------------------------
+  1. 把下列占位符替换为真实信息后即可托管，可直传 GitHub Pages /
+     Vercel / Netlify / 对象存储(OSS/COS) / CloudStudio 等任意静态托管：
+       {{运营者姓名}}  {{联系邮箱}}  {{联系电话}}  {{生效日期}}
+  2. 本文件部署到的公网网址，就是「隐私政策URL」，需同时填进：
+       - 本页顶部黄框里的 {{隐私政策URL}}（填写完后删除该黄框）
+       - 备案材料.md / 应用商店后台的隐私政策链接
+  3. 替换完成后，请删除页面里的黄色「填写说明」框（class="note" 的那段）。
+  4. 建议把本文件命名为 index.html 上传到托管根目录，方便直接用域名访问。
+  =====================================================================
+-->
+<style>
+  :root{ --brand:#23527c; --ink:#222; --muted:#666; --line:#e2e8f0; --bg:#f7f9fc; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--ink);
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+        line-height:1.7; font-size:15px; }
+  .wrap{ max-width:820px; margin:0 auto; padding:32px 20px 64px; background:#fff;
+         box-shadow:0 1px 4px rgba(0,0,0,.06); }
+  h1{ color:var(--brand); font-size:24px; margin:0 0 4px; }
+  h2{ color:var(--brand); font-size:18px; margin:28px 0 8px;
+      border-left:4px solid var(--brand); padding-left:10px; }
+  .meta{ color:var(--muted); font-size:13px; margin-bottom:8px; }
+  p{ margin:8px 0; }
+  table{ width:100%; border-collapse:collapse; margin:12px 0; font-size:14px; }
+  th,td{ border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th{ background:#eef3f9; color:var(--brand); font-weight:600; }
+  .ph{ background:#fff7e6; color:#a8650b; padding:1px 6px; border-radius:4px;
+       font-family:ui-monospace,Menlo,Consolas,monospace; font-size:13px; }
+  .note{ background:#eef7ff; border:1px solid #cfe3ff; border-radius:8px;
+         padding:12px 14px; color:#1d4e79; font-size:13px; margin:16px 0; }
+  ul{ margin:8px 0; padding-left:22px; }
+  li{ margin:4px 0; }
+  footer{ color:var(--muted); font-size:12px; margin-top:32px; border-top:1px solid var(--line); padding-top:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>隐私政策</h1>
+  <div class="meta">应用名称：我晕（Android）　·　版本：V1.0　·　包名：com.woyun.cues</div>
+
+  <div class="note">
+    <b>填写说明（发布前请删除本框）：</b>本政策中 <span class="ph">{{…}}</span> 部分为占位符，
+    需由运营者（个人）替换为真实信息；并请将本政策部署到<b>公网可访问</b>的网址（如
+    <span class="ph">{{隐私政策URL}}</span>），用于 App 备案与商店上架。本应用不联网、不收集个人信息，
+    以下表述均基于真实情况，请勿虚构。
+  </div>
+
+  <h2>一、我们是谁</h2>
+  <p>本应用《我晕》由个人开发者 <span class="ph">{{运营者姓名}}</span> 独立开发并运营。
+     如您对本政策或个人信息处理有任何疑问，可通过以下方式联系我们：</p>
+  <ul>
+    <li>联系邮箱：<span class="ph">{{联系邮箱}}</span></li>
+    <li>联系电话：<span class="ph">{{联系电话}}</span></li>
+  </ul>
+
+  <h2>二、我们如何收集和使用您的个人信息</h2>
+  <p><b>本应用不收集任何个人信息，也不向任何服务器上传数据。</b></p>
+  <p>我们<b>不</b>设置账号系统，<b>不</b>收集您的姓名、手机号、位置、通讯录、相册、麦克风、摄像头、
+     设备标识符（如 IMEI/Android ID）、日志或任何其他可识别个人身份的信息。应用所有功能均在您的设备本地完成，
+     完全离线运行，不与任何第三方服务器通信。</p>
+
+  <h2>三、我们申请的权限及用途</h2>
+  <p>为提供视觉提示与低频音功能，应用会向系统申请以下权限。这些权限均<b>非危险权限</b>，
+     安装时不会出现红色敏感权限警示；我们仅在功能必需时使用，且不会用于任何其他目的：</p>
+  <table>
+    <thead><tr><th>权限名称</th><th>类型</th><th>用途说明</th></tr></thead>
+    <tbody>
+      <tr><td>SYSTEM_ALERT_WINDOW（显示在其他应用上层）</td><td>特殊权限</td>
+          <td>在所有应用（含桌面与其他 App）之上绘制提示圆点。需您在系统设置中一次性授予。</td></tr>
+      <tr><td>FOREGROUND_SERVICE</td><td>普通</td>
+          <td>保证提示圆点 / 低频音在您切换到其他应用后仍能持续运行。</td></tr>
+      <tr><td>FOREGROUND_SERVICE_SPECIAL_USE</td><td>普通</td>
+          <td>声明上述"悬浮窗"用途的前台服务类型（Android 14+ 要求）。</td></tr>
+      <tr><td>FOREGROUND_SERVICE_MEDIA_PLAYBACK</td><td>普通</td>
+          <td>声明低频音播放的前台服务类型，使其在后台 / 息屏时继续播放。</td></tr>
+      <tr><td>POST_NOTIFICATIONS</td><td>普通</td>
+          <td>在通知栏显示常驻开关（暂停/继续、关闭）。Android 13+ 需授权；拒绝后仍可播放，仅不显示开关。</td></tr>
+      <tr><td>WAKE_LOCK</td><td>普通</td>
+          <td>息屏后保持 CPU 唤醒，避免低频音输出被系统深度休眠打断。</td></tr>
+    </tbody>
+  </table>
+  <p>除上述权限外，本应用<b>不申请</b>定位、通讯录、麦克风、相机、存储读取等任何敏感权限。</p>
+
+  <h2>四、传感器与本地数据</h2>
+  <p>应用使用设备<b>加速度计</b>（必需）、<b>重力传感器 / 陀螺仪</b>（可选）实时解算车辆运动，
+     以驱动屏幕圆点。这些传感器数据<b>仅在设备内存中即时处理</b>，<b>不被记录、不被存储、不上传</b>。</p>
+  <p>您的偏好设置（提示强度、圆点大小、音量、自动停止开关）仅保存在应用私有目录的本地存储中，
+     其他应用无法访问。卸载应用时，上述本地数据将一并被删除。</p>
+
+  <h2>五、第三方共享、转让与公开披露</h2>
+  <p>我们<b>不</b>与任何第三方共享、转让或公开披露您的个人信息，因为本应用本身不持有任何个人信息。</p>
+
+  <h2>六、未成年人（儿童）隐私</h2>
+  <p>本应用不面向未成年人定向设计，亦不收集未成年人个人信息。若您为未成年人，请在监护人陪同下使用；
+     如监护人发现未成年人信息被误收集，可凭本政策第九节联系方式要求我们删除。</p>
+
+  <h2>七、您的权利</h2>
+  <ul>
+    <li>撤回权限：可随时在系统设置中关闭上述任一权限，关闭后对应功能不可用，但不影响其他功能。</li>
+    <li>删除数据：卸载应用即可清除全部本地偏好设置，无需额外申请。</li>
+    <li>咨询与投诉：可通过第九节联系方式就个人信息处理与我们沟通。</li>
+  </ul>
+
+  <h2>八、本政策的变更</h2>
+  <p>如应用功能发生重大变化（例如新增联网或数据收集），我们将更新本政策并在应用内或官网公示。
+     若变更涉及核心个人信息处理，将再次征得您的同意。</p>
+
+  <h2>九、联系我们</h2>
+  <p>如您对本隐私政策有任何疑问或诉求，请通过以下方式联系运营者：</p>
+  <ul>
+    <li>运营者：<span class="ph">{{运营者姓名}}</span></li>
+    <li>邮箱：<span class="ph">{{联系邮箱}}</span></li>
+    <li>电话：<span class="ph">{{联系电话}}</span></li>
+  </ul>
+
+  <p class="meta">本政策生效日期：<span class="ph">{{生效日期}}</span></p>
+
+  <footer>
+    本《隐私政策》依据《中华人民共和国个人信息保护法》《网络安全法》《数据安全法》及工业和信息化部
+    关于移动智能终端应用软件（App）相关规定编写。本应用全程离线、不收集个人信息，相关表述均属实。
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,1058 @@
+# compiler: R8
+# compiler_version: 9.5.1-dev
+# min_api: 24
+# compiler_hash: 0bdcb9a385230ce8f8a5acf0b69023dab7636045
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 94c58ff6558f6f473fc4094b5ae1336fb57c230d404eacc280d79a3caab19182
+# pg_map_hash: SHA-256 94c58ff6558f6f473fc4094b5ae1336fb57c230d404eacc280d79a3caab19182
+com.woyun.cues.CuesView -> com.woyun.cues.CuesView:
+# {"id":"sourceFile","fileName":"CuesView.java"}
+    int EDGE_SIDE_COUNT -> A
+    int EDGE_TOP_COUNT -> B
+    float BUMP_UP -> C
+    float BUMP_DOWN -> D
+    android.graphics.Paint dotPaint -> a
+    android.graphics.Paint haloPaint -> b
+    android.graphics.RectF clipRect -> c
+    float density -> d
+    boolean preview -> e
+    boolean animating -> f
+    float[] baseX -> g
+    float[] baseY -> h
+    float[] posX -> i
+    float[] posY -> j
+    float[] velX -> k
+    float[] velY -> l
+    float[] omega -> m
+    float[] scl -> n
+    float[] sclV -> o
+    float[] sclOmega -> p
+    float targetX -> q
+    float targetY -> r
+    float targetRotDeg -> s
+    float targetAlpha -> t
+    float targetScale -> u
+    float rotDeg -> v
+    float alpha -> w
+    float sensitivity -> x
+    float dotScale -> y
+    long lastFrameNs -> z
+    1:3:void <init>(android.content.Context):67:67 -> <init>
+    4:11:void <init>(android.content.Context):35:35 -> <init>
+    12:18:void <init>(android.content.Context):36:36 -> <init>
+    19:27:void <init>(android.content.Context):37:37 -> <init>
+    28:30:void <init>(android.content.Context):39:39 -> <init>
+    31:34:void <init>(android.content.Context):44:44 -> <init>
+    35:38:void <init>(android.content.Context):45:45 -> <init>
+    39:42:void <init>(android.content.Context):46:46 -> <init>
+    43:46:void <init>(android.content.Context):47:47 -> <init>
+    47:50:void <init>(android.content.Context):48:48 -> <init>
+    51:54:void <init>(android.content.Context):49:49 -> <init>
+    55:58:void <init>(android.content.Context):50:50 -> <init>
+    59:62:void <init>(android.content.Context):52:52 -> <init>
+    63:66:void <init>(android.content.Context):53:53 -> <init>
+    67:72:void <init>(android.content.Context):54:54 -> <init>
+    73:74:void <init>(android.content.Context):58:58 -> <init>
+    75:76:void <init>(android.content.Context):61:61 -> <init>
+    77:78:void <init>(android.content.Context):62:62 -> <init>
+    79:82:void <init>(android.content.Context):68:68 -> <init>
+    83:83:void <init>(android.content.Context,android.util.AttributeSet):72:72 -> <init>
+    84:86:void <init>(android.content.Context,android.util.AttributeSet):35:37 -> <init>
+    87:87:void <init>(android.content.Context,android.util.AttributeSet):39:39 -> <init>
+    88:94:void <init>(android.content.Context,android.util.AttributeSet):44:50 -> <init>
+    95:97:void <init>(android.content.Context,android.util.AttributeSet):52:54 -> <init>
+    98:98:void <init>(android.content.Context,android.util.AttributeSet):58:58 -> <init>
+    99:100:void <init>(android.content.Context,android.util.AttributeSet):61:62 -> <init>
+    101:101:void <init>(android.content.Context,android.util.AttributeSet):73:73 -> <init>
+    102:102:void <init>(android.content.Context,android.util.AttributeSet,int):77:77 -> <init>
+    103:105:void <init>(android.content.Context,android.util.AttributeSet,int):35:37 -> <init>
+    106:106:void <init>(android.content.Context,android.util.AttributeSet,int):39:39 -> <init>
+    107:113:void <init>(android.content.Context,android.util.AttributeSet,int):44:50 -> <init>
+    114:116:void <init>(android.content.Context,android.util.AttributeSet,int):52:54 -> <init>
+    117:117:void <init>(android.content.Context,android.util.AttributeSet,int):58:58 -> <init>
+    118:119:void <init>(android.content.Context,android.util.AttributeSet,int):61:62 -> <init>
+    120:120:void <init>(android.content.Context,android.util.AttributeSet,int):78:78 -> <init>
+    1:11:void buildDots(int,int):141:151 -> a
+    12:14:void buildDots(int,int):153:155 -> a
+    15:16:void buildDots(int,int):160:161 -> a
+    17:18:void buildDots(int,int):163:164 -> a
+    19:20:void buildDots(int,int):170:171 -> a
+    21:22:void buildDots(int,int):173:174 -> a
+    23:26:void buildDots(int,int):178:181 -> a
+    27:29:void buildDots(int,int):183:185 -> a
+    30:30:void buildDots(int,int):187:187 -> a
+    1:4:float dp(float):327:327 -> b
+    1:11:void ensureAnimating():192:192 -> c
+    12:15:void ensureAnimating():193:193 -> c
+    16:17:void ensureAnimating():194:194 -> c
+    18:25:void ensureAnimating():195:195 -> c
+    1:6:int currentRotation():315:315 -> currentRotation
+    7:20:int currentRotation():317:317 -> currentRotation
+    21:26:int currentRotation():318:318 -> currentRotation
+    27:33:int currentRotation():320:320 -> currentRotation
+    1:19:void init():82:82 -> d
+    20:22:void init():83:83 -> d
+    23:25:void init():84:84 -> d
+    26:32:void init():85:85 -> d
+    33:38:void init():86:86 -> d
+    39:43:void init():87:87 -> d
+    44:51:void init():88:88 -> d
+    1:5:void doFrame(long):214:214 -> doFrame
+    6:25:void doFrame(long):216:216 -> doFrame
+    26:41:void doFrame(long):221:221 -> doFrame
+    42:47:void doFrame(long):224:224 -> doFrame
+    48:61:void doFrame(long):225:225 -> doFrame
+    62:77:void doFrame(long):227:227 -> doFrame
+    78:80:void doFrame(long):228:228 -> doFrame
+    81:88:void doFrame(long):231:231 -> doFrame
+    3:10:boolean step(float):236:236 -> e
+    11:19:boolean step(float):238:238 -> e
+    20:29:boolean step(float):239:239 -> e
+    30:45:boolean step(float):242:242 -> e
+    46:66:boolean step(float):243:243 -> e
+    67:68:boolean step(float):244:244 -> e
+    69:75:boolean step(float):245:245 -> e
+    76:84:boolean step(float):246:246 -> e
+    85:93:boolean step(float):247:247 -> e
+    94:123:boolean step(float):248:248 -> e
+    124:148:boolean step(float):249:249 -> e
+    149:158:boolean step(float):254:254 -> e
+    159:174:boolean step(float):257:257 -> e
+    175:176:boolean step(float):258:258 -> e
+    177:188:boolean step(float):259:259 -> e
+    189:190:boolean step(float):261:261 -> e
+    191:206:boolean step(float):262:262 -> e
+    207:208:boolean step(float):264:264 -> e
+    209:216:boolean step(float):265:265 -> e
+    217:257:boolean step(float):267:267 -> e
+    258:268:boolean step(float):272:272 -> e
+    269:284:boolean step(float):273:273 -> e
+    285:293:boolean step(float):275:275 -> e
+    294:322:boolean step(float):276:276 -> e
+    23:32:float tanh(float):333:333 -> f
+    1:3:void onAttachedToWindow():201:201 -> onAttachedToWindow
+    4:7:void onAttachedToWindow():202:202 -> onAttachedToWindow
+    1:4:void onDetachedFromWindow():207:207 -> onDetachedFromWindow
+    5:6:void onDetachedFromWindow():208:208 -> onDetachedFromWindow
+    7:14:void onDetachedFromWindow():209:209 -> onDetachedFromWindow
+    1:29:void onDraw(android.graphics.Canvas):284:284 -> onDraw
+    30:33:void onDraw(android.graphics.Canvas):289:289 -> onDraw
+    34:37:void onDraw(android.graphics.Canvas):290:290 -> onDraw
+    38:42:void onDraw(android.graphics.Canvas):291:291 -> onDraw
+    43:52:void onDraw(android.graphics.Canvas):293:293 -> onDraw
+    53:71:void onDraw(android.graphics.Canvas):294:294 -> onDraw
+    72:89:void onDraw(android.graphics.Canvas):297:297 -> onDraw
+    90:104:void onDraw(android.graphics.Canvas):298:298 -> onDraw
+    105:115:void onDraw(android.graphics.Canvas):299:299 -> onDraw
+    116:120:void onDraw(android.graphics.Canvas):300:300 -> onDraw
+    121:125:void onDraw(android.graphics.Canvas):302:302 -> onDraw
+    126:132:void onDraw(android.graphics.Canvas):303:303 -> onDraw
+    133:141:void onDraw(android.graphics.Canvas):304:304 -> onDraw
+    142:154:void onDraw(android.graphics.Canvas):305:305 -> onDraw
+    155:166:void onDraw(android.graphics.Canvas):306:306 -> onDraw
+    167:174:void onDraw(android.graphics.Canvas):307:307 -> onDraw
+    175:178:void onDraw(android.graphics.Canvas):309:309 -> onDraw
+    1:3:void onSizeChanged(int,int,int,int):133:133 -> onSizeChanged
+    4:6:void onSizeChanged(int,int,int,int):134:134 -> onSizeChanged
+    7:15:void onSizeChanged(int,int,int,int):135:135 -> onSizeChanged
+    2:9:void resetMotion():126:126 -> resetMotion
+    10:11:void resetMotion():127:127 -> resetMotion
+    12:14:void resetMotion():128:128 -> resetMotion
+    3:14:void setDotScale(float):103:103 -> setDotScale
+    15:26:void setDotScale(float):104:104 -> setDotScale
+    1:2:void setPreview(boolean):93:93 -> setPreview
+    3:13:void setPreview(boolean):94:94 -> setPreview
+    14:17:void setPreview(boolean):95:95 -> setPreview
+    3:16:void setSensitivity(float):99:99 -> setSensitivity
+    1:1:void updateMotion(float,float,float,float,float):109:109 -> updateMotion
+    2:6:void updateMotion(float,float,float,float,float):111:115 -> updateMotion
+    7:7:void updateMotion(float,float,float,float,float):118:118 -> updateMotion
+    8:10:void updateMotion(float,float,float,float,float):120:122 -> updateMotion
+com.woyun.cues.MainActivity -> com.woyun.cues.MainActivity:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    android.widget.Button btnMain -> a
+    android.widget.TextView tvStatus -> b
+    android.widget.TextView tvSensValue -> c
+    android.widget.SeekBar seekSens -> d
+    com.woyun.cues.CuesView preview -> e
+    com.woyun.cues.MotionEngine previewEngine -> f
+    android.widget.Button btnTone -> g
+    android.widget.TextView tvToneStatus -> h
+    android.widget.TextView tvVolumeValue -> i
+    android.widget.SeekBar seekVolume -> j
+    android.widget.CheckBox cbAutoStop -> k
+    android.os.Handler handler -> l
+    boolean pendingStart -> m
+    boolean receiverRegistered -> n
+    android.content.BroadcastReceiver stateReceiver -> o
+    int REQ_OVERLAY -> p
+    int REQ_NOTIF_CUES -> q
+    int REQ_NOTIF_TONE -> r
+    1:3:void <init>():34:34 -> <init>
+    4:14:void <init>():55:55 -> <init>
+    15:22:void <init>():59:59 -> <init>
+    1:23:void updateSensLabel(int):138:138 -> A
+    1:23:void updateVolumeLabel(int):194:194 -> B
+    1:3:com.woyun.cues.CuesView -$$Nest$fgetpreview(com.woyun.cues.MainActivity):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void -$$Nest$mopenOverlaySettings(com.woyun.cues.MainActivity):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void -$$Nest$mrefreshUi(com.woyun.cues.MainActivity):0:0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void -$$Nest$mrefreshUiDelayed(com.woyun.cues.MainActivity):0:0 -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void -$$Nest$mrequestAndStartCues(com.woyun.cues.MainActivity):0:0 -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void -$$Nest$mrequestAndStartTone(com.woyun.cues.MainActivity):0:0 -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void -$$Nest$mshowHowDialog(com.woyun.cues.MainActivity):0:0 -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void -$$Nest$mupdateSensLabel(com.woyun.cues.MainActivity,int):0:0 -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void -$$Nest$mupdateVolumeLabel(com.woyun.cues.MainActivity,int):0:0 -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    4:14:void bindCuesSection():84:84 -> j
+    15:25:void bindCuesSection():85:85 -> j
+    26:36:void bindCuesSection():86:86 -> j
+    37:47:void bindCuesSection():87:87 -> j
+    48:56:void bindCuesSection():88:88 -> j
+    57:59:void bindCuesSection():89:89 -> j
+    60:66:void bindCuesSection():91:91 -> j
+    67:69:void bindCuesSection():92:92 -> j
+    70:79:void bindCuesSection():94:94 -> j
+    80:91:void bindCuesSection():106:106 -> j
+    92:98:void bindCuesSection():107:107 -> j
+    99:105:void bindCuesSection():108:108 -> j
+    106:108:void bindCuesSection():109:109 -> j
+    109:118:void bindCuesSection():110:110 -> j
+    119:127:void bindCuesSection():129:129 -> j
+    128:135:void bindCuesSection():131:131 -> j
+    136:143:void bindCuesSection():132:132 -> j
+    144:150:void bindCuesSection():133:133 -> j
+    4:14:void bindToneSection():143:143 -> k
+    15:25:void bindToneSection():144:144 -> k
+    26:36:void bindToneSection():145:145 -> k
+    37:47:void bindToneSection():146:146 -> k
+    48:55:void bindToneSection():147:147 -> k
+    56:65:void bindToneSection():149:149 -> k
+    66:69:void bindToneSection():161:161 -> k
+    70:76:void bindToneSection():162:162 -> k
+    77:81:void bindToneSection():163:163 -> k
+    82:84:void bindToneSection():164:164 -> k
+    85:94:void bindToneSection():165:165 -> k
+    95:103:void bindToneSection():184:184 -> k
+    104:114:void bindToneSection():185:185 -> k
+    1:5:boolean hasOverlayPermission():314:314 -> l
+    1:9:void openOverlaySettings():343:343 -> m
+    10:11:void openOverlaySettings():345:345 -> m
+    12:34:void openOverlaySettings():346:346 -> m
+    35:38:void openOverlaySettings():347:347 -> m
+    39:48:void openOverlaySettings():350:350 -> m
+    49:51:void openOverlaySettings():352:352 -> m
+    1:10:void refreshCuesUi():402:402 -> n
+    11:19:void refreshCuesUi():403:403 -> n
+    20:21:void refreshCuesUi():406:406 -> n
+    22:35:void refreshCuesUi():407:407 -> n
+    36:51:void refreshCuesUi():408:408 -> n
+    52:68:void refreshCuesUi():410:410 -> n
+    69:72:void refreshCuesUi():411:411 -> n
+    73:79:void refreshCuesUi():414:414 -> n
+    80:86:void refreshCuesUi():412:412 -> n
+    87:90:void refreshCuesUi():414:414 -> n
+    1:2:void refreshToneUi():419:419 -> o
+    3:16:void refreshToneUi():420:420 -> o
+    17:30:void refreshToneUi():421:421 -> o
+    31:45:void refreshToneUi():422:422 -> o
+    1:8:void onActivityResult(int,int,android.content.Intent):370:370 -> onActivityResult
+    9:10:void onActivityResult(int,int,android.content.Intent):372:372 -> onActivityResult
+    11:16:void onActivityResult(int,int,android.content.Intent):373:373 -> onActivityResult
+    17:20:void onActivityResult(int,int,android.content.Intent):374:374 -> onActivityResult
+    21:29:void onActivityResult(int,int,android.content.Intent):376:376 -> onActivityResult
+    1:3:void onConfigurationChanged(android.content.res.Configuration):288:288 -> onConfigurationChanged
+    4:11:void onConfigurationChanged(android.content.res.Configuration):289:289 -> onConfigurationChanged
+    12:18:void onConfigurationChanged(android.content.res.Configuration):290:290 -> onConfigurationChanged
+    1:5:void onCreate(android.os.Bundle):68:68 -> onCreate
+    6:8:void onCreate(android.os.Bundle):69:69 -> onCreate
+    9:11:void onCreate(android.os.Bundle):71:71 -> onCreate
+    12:16:void onCreate(android.os.Bundle):72:72 -> onCreate
+    17:29:void onCreate(android.os.Bundle):74:74 -> onCreate
+    4:7:void onMotion(float,float,float,float,float):308:308 -> onMotion
+    8:13:void onMotion(float,float,float,float,float):309:309 -> onMotion
+    1:3:void onPause():256:256 -> onPause
+    4:6:void onPause():257:257 -> onPause
+    7:10:void onPause():258:258 -> onPause
+    1:7:void onRequestPermissionsResult(int,java.lang.String[],int[]):359:359 -> onRequestPermissionsResult
+    8:15:void onRequestPermissionsResult(int,java.lang.String[],int[]):362:362 -> onRequestPermissionsResult
+    16:19:void onRequestPermissionsResult(int,java.lang.String[],int[]):364:364 -> onRequestPermissionsResult
+    1:3:void onResume():244:244 -> onResume
+    4:6:void onResume():245:245 -> onResume
+    7:9:void onResume():246:246 -> onResume
+    10:12:void onResume():247:247 -> onResume
+    13:23:void onResume():248:248 -> onResume
+    24:25:void onResume():249:249 -> onResume
+    26:29:void onResume():250:250 -> onResume
+    1:3:void refreshUi():397:397 -> p
+    4:7:void refreshUi():398:398 -> p
+    1:13:void refreshUiDelayed():387:387 -> q
+    1:5:void registerStateReceiver():262:262 -> r
+    6:10:void registerStateReceiver():263:263 -> r
+    11:15:void registerStateReceiver():264:264 -> r
+    16:20:void registerStateReceiver():265:265 -> r
+    21:22:void registerStateReceiver():267:267 -> r
+    23:29:void registerStateReceiver():270:270 -> r
+    30:33:void registerStateReceiver():268:268 -> r
+    34:37:void registerStateReceiver():270:270 -> r
+    38:40:void registerStateReceiver():272:272 -> r
+    1:6:void requestAndStartCues():318:318 -> s
+    7:14:void requestAndStartCues():319:319 -> s
+    15:21:void requestAndStartCues():320:320 -> s
+    22:33:void requestAndStartCues():321:321 -> s
+    34:41:void requestAndStartCues():322:322 -> s
+    42:45:void requestAndStartCues():328:328 -> s
+    46:49:void requestAndStartCues():329:329 -> s
+    50:55:void requestAndStartCues():332:332 -> s
+    56:63:void requestAndStartCues():333:333 -> s
+    64:73:void requestAndStartCues():335:335 -> s
+    74:77:void requestAndStartCues():339:339 -> s
+    1:6:void requestAndStartTone():199:199 -> t
+    7:14:void requestAndStartTone():200:200 -> t
+    15:24:void requestAndStartTone():202:202 -> t
+    25:28:void requestAndStartTone():206:206 -> t
+    1:8:void showHowDialog():218:218 -> u
+    9:21:void showHowDialog():219:219 -> u
+    22:25:void showHowDialog():220:220 -> u
+    26:31:void showHowDialog():221:221 -> u
+    32:43:void showHowDialog():223:223 -> u
+    44:52:void showHowDialog():230:230 -> u
+    53:55:void showHowDialog():232:232 -> u
+    56:71:void showHowDialog():234:234 -> u
+    72:87:void showHowDialog():235:235 -> u
+    88:90:void showHowDialog():236:236 -> u
+    91:94:void showHowDialog():238:238 -> u
+    1:3:void startCues():382:382 -> v
+    4:7:void startCues():383:383 -> v
+    1:11:void startPreview():295:295 -> w
+    12:21:void startPreview():296:296 -> w
+    22:27:void startPreview():297:297 -> w
+    1:3:void startTone():210:210 -> x
+    4:7:void startTone():211:211 -> x
+    1:7:void stopPreview():301:301 -> y
+    8:15:void stopPreview():302:302 -> y
+    1:6:void unregisterStateReceiver():278:278 -> z
+    7:8:void unregisterStateReceiver():279:279 -> z
+    9:14:void unregisterStateReceiver():281:281 -> z
+com.woyun.cues.MainActivity$0 -> a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:android.content.Intent MainActivity$0.m(com.woyun.cues.MainActivity,android.content.BroadcastReceiver,android.content.IntentFilter,int):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.MainActivity$1 -> com.woyun.cues.MainActivity$b:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    com.woyun.cues.MainActivity this$0 -> a
+    1:6:void <init>(com.woyun.cues.MainActivity):59:59 -> <init>
+    1:6:void onReceive(android.content.Context,android.content.Intent):62:62 -> onReceive
+com.woyun.cues.MainActivity$10 -> com.woyun.cues.MainActivity$a:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    com.woyun.cues.MainActivity this$0 -> a
+    1:6:void <init>(com.woyun.cues.MainActivity):387:387 -> <init>
+    1:6:void run():390:390 -> run
+com.woyun.cues.MainActivity$2 -> com.woyun.cues.MainActivity$c:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    com.woyun.cues.MainActivity this$0 -> a
+    1:6:void <init>(com.woyun.cues.MainActivity):74:74 -> <init>
+    1:6:void onClick(android.view.View):77:77 -> onClick
+com.woyun.cues.MainActivity$3 -> com.woyun.cues.MainActivity$d:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    com.woyun.cues.MainActivity this$0 -> a
+    1:6:void <init>(com.woyun.cues.MainActivity):94:94 -> <init>
+    1:2:void onClick(android.view.View):97:97 -> onClick
+    3:6:void onClick(android.view.View):101:101 -> onClick
+    7:9:void onClick(android.view.View):98:98 -> onClick
+    10:15:void onClick(android.view.View):99:99 -> onClick
+    16:19:void onClick(android.view.View):101:101 -> onClick
+com.woyun.cues.MainActivity$4 -> com.woyun.cues.MainActivity$e:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    com.woyun.cues.MainActivity this$0 -> a
+    1:6:void <init>(com.woyun.cues.MainActivity):110:110 -> <init>
+    3:9:void onProgressChanged(android.widget.SeekBar,int,boolean):114:114 -> onProgressChanged
+    10:14:void onProgressChanged(android.widget.SeekBar,int,boolean):116:116 -> onProgressChanged
+    15:28:void onProgressChanged(android.widget.SeekBar,int,boolean):117:117 -> onProgressChanged
+    1:1:void onStartTrackingTouch(android.widget.SeekBar):0:0 -> onStartTrackingTouch
+    1:1:void onStopTrackingTouch(android.widget.SeekBar):0:0 -> onStopTrackingTouch
+com.woyun.cues.MainActivity$5 -> com.woyun.cues.MainActivity$f:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    com.woyun.cues.MainActivity this$0 -> a
+    1:6:void <init>(com.woyun.cues.MainActivity):149:149 -> <init>
+    1:2:void onClick(android.view.View):152:152 -> onClick
+    3:6:void onClick(android.view.View):156:156 -> onClick
+    7:9:void onClick(android.view.View):153:153 -> onClick
+    10:15:void onClick(android.view.View):154:154 -> onClick
+    16:19:void onClick(android.view.View):156:156 -> onClick
+com.woyun.cues.MainActivity$6 -> com.woyun.cues.MainActivity$g:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    com.woyun.cues.MainActivity this$0 -> a
+    1:6:void <init>(com.woyun.cues.MainActivity):165:165 -> <init>
+    1:7:void onProgressChanged(android.widget.SeekBar,int,boolean):168:168 -> onProgressChanged
+    8:13:void onProgressChanged(android.widget.SeekBar,int,boolean):171:171 -> onProgressChanged
+    1:1:void onStartTrackingTouch(android.widget.SeekBar):0:0 -> onStartTrackingTouch
+    1:1:void onStopTrackingTouch(android.widget.SeekBar):0:0 -> onStopTrackingTouch
+com.woyun.cues.MainActivity$7 -> com.woyun.cues.MainActivity$h:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    com.woyun.cues.MainActivity this$0 -> a
+    1:6:void <init>(com.woyun.cues.MainActivity):185:185 -> <init>
+    1:6:void onCheckedChanged(android.widget.CompoundButton,boolean):188:188 -> onCheckedChanged
+com.woyun.cues.MainActivity$8 -> com.woyun.cues.MainActivity$i:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    android.app.Dialog val$dialog -> a
+    com.woyun.cues.MainActivity this$0 -> b
+    1:8:void <init>(com.woyun.cues.MainActivity,android.app.Dialog):223:223 -> <init>
+    1:6:void onClick(android.view.View):226:226 -> onClick
+com.woyun.cues.MainActivity$9 -> com.woyun.cues.MainActivity$j:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    com.woyun.cues.MainActivity this$0 -> a
+    1:6:void <init>(com.woyun.cues.MainActivity):322:322 -> <init>
+    1:6:void onClick(android.content.DialogInterface,int):325:325 -> onClick
+com.woyun.cues.MotionEngine -> com.woyun.cues.MotionEngine:
+# {"id":"sourceFile","fileName":"MotionEngine.java"}
+    float vertBase -> A
+    float energy -> B
+    float activity -> C
+    float vehicleHold -> D
+    float TAU_GRAVITY -> E
+    float TAU_CUE -> F
+    float TAU_BIAS -> G
+    float TAU_FWD -> H
+    float TAU_VERT_LP -> I
+    float TAU_VERT_HP -> J
+    float VERT_DEADZONE -> K
+    float VEHICLE_HOLD -> L
+    android.hardware.SensorManager sm -> a
+    android.hardware.Sensor sAccel -> b
+    android.hardware.Sensor sGravity -> c
+    android.hardware.Sensor sGyro -> d
+    com.woyun.cues.MotionEngine$Listener listener -> e
+    boolean running -> f
+    float[] acc -> g
+    float[] grav -> h
+    float[] gyro -> i
+    float[] fwd -> j
+    float[] right -> k
+    float[] up -> l
+    boolean hasGravitySensor -> m
+    boolean gravReady -> n
+    boolean fwdReady -> o
+    long lastNs -> p
+    float lpLon1 -> q
+    float lpLon2 -> r
+    float lpLat1 -> s
+    float lpLat2 -> t
+    float lpYaw1 -> u
+    float lpYaw2 -> v
+    float biasLon -> w
+    float biasLat -> x
+    float biasYaw -> y
+    float vertLp -> z
+    1:4:void <init>(android.content.Context):81:81 -> <init>
+    5:7:void <init>(android.content.Context):59:59 -> <init>
+    8:11:void <init>(android.content.Context):61:61 -> <init>
+    12:15:void <init>(android.content.Context):62:62 -> <init>
+    16:19:void <init>(android.content.Context):63:63 -> <init>
+    20:23:void <init>(android.content.Context):64:64 -> <init>
+    24:27:void <init>(android.content.Context):65:65 -> <init>
+    28:31:void <init>(android.content.Context):66:66 -> <init>
+    32:45:void <init>(android.content.Context):82:82 -> <init>
+    46:57:void <init>(android.content.Context):83:83 -> <init>
+    58:68:void <init>(android.content.Context):84:84 -> <init>
+    69:77:void <init>(android.content.Context):85:85 -> <init>
+    78:80:void <init>(android.content.Context):86:86 -> <init>
+    2:21:float len(float[]):324:324 -> a
+    3:5:void reset():122:122 -> b
+    6:7:void reset():123:123 -> b
+    8:10:void reset():124:124 -> b
+    11:22:void reset():125:125 -> b
+    23:28:void reset():126:126 -> b
+    29:32:void reset():127:127 -> b
+    33:34:void reset():128:128 -> b
+    35:36:void reset():129:129 -> b
+    37:38:void reset():130:130 -> b
+    39:49:void reset():131:131 -> b
+    1:8:boolean hasGyroscope():94:94 -> hasGyroscope
+    1:3:boolean isRunning():118:118 -> isRunning
+    1:8:boolean isSupported():90:90 -> isSupported
+    1:1:void onAccuracyChanged(android.hardware.Sensor,int):0:0 -> onAccuracyChanged
+    1:1:void onSensorChanged(android.hardware.SensorEvent):140:140 -> onSensorChanged
+    2:4:void onSensorChanged(android.hardware.SensorEvent):142:144 -> onSensorChanged
+    5:8:void onSensorChanged(android.hardware.SensorEvent):148:151 -> onSensorChanged
+    9:11:void onSensorChanged(android.hardware.SensorEvent):156:158 -> onSensorChanged
+    12:12:void onSensorChanged(android.hardware.SensorEvent):162:162 -> onSensorChanged
+    13:13:void onSensorChanged(android.hardware.SensorEvent):165:165 -> onSensorChanged
+    14:14:void onSensorChanged(android.hardware.SensorEvent):167:167 -> onSensorChanged
+    15:15:void onSensorChanged(android.hardware.SensorEvent):171:171 -> onSensorChanged
+    16:16:void onSensorChanged(android.hardware.SensorEvent):189:189 -> onSensorChanged
+    17:17:void onSensorChanged(android.hardware.SensorEvent):179:179 -> onSensorChanged
+    18:21:void onSensorChanged(android.hardware.SensorEvent):173:176 -> onSensorChanged
+    22:24:void onSensorChanged(android.hardware.SensorEvent):179:181 -> onSensorChanged
+    25:27:void onSensorChanged(android.hardware.SensorEvent):185:187 -> onSensorChanged
+    28:28:void onSensorChanged(android.hardware.SensorEvent):193:193 -> onSensorChanged
+    29:31:void onSensorChanged(android.hardware.SensorEvent):195:197 -> onSensorChanged
+    32:34:void onSensorChanged(android.hardware.SensorEvent):200:202 -> onSensorChanged
+    35:35:void onSensorChanged(android.hardware.SensorEvent):206:206 -> onSensorChanged
+    36:36:void onSensorChanged(android.hardware.SensorEvent):224:224 -> onSensorChanged
+    37:37:void onSensorChanged(android.hardware.SensorEvent):228:228 -> onSensorChanged
+    38:38:void onSensorChanged(android.hardware.SensorEvent):231:231 -> onSensorChanged
+    39:39:void onSensorChanged(android.hardware.SensorEvent):236:236 -> onSensorChanged
+    40:41:void onSensorChanged(android.hardware.SensorEvent):232:233 -> onSensorChanged
+    42:44:void onSensorChanged(android.hardware.SensorEvent):236:238 -> onSensorChanged
+    45:45:void onSensorChanged(android.hardware.SensorEvent):241:241 -> onSensorChanged
+    46:46:void onSensorChanged(android.hardware.SensorEvent):244:244 -> onSensorChanged
+    47:47:void onSensorChanged(android.hardware.SensorEvent):248:248 -> onSensorChanged
+    48:48:void onSensorChanged(android.hardware.SensorEvent):251:251 -> onSensorChanged
+    49:51:void onSensorChanged(android.hardware.SensorEvent):254:256 -> onSensorChanged
+    52:52:void onSensorChanged(android.hardware.SensorEvent):259:259 -> onSensorChanged
+    53:53:void onSensorChanged(android.hardware.SensorEvent):261:261 -> onSensorChanged
+    54:54:void onSensorChanged(android.hardware.SensorEvent):263:263 -> onSensorChanged
+    55:60:void onSensorChanged(android.hardware.SensorEvent):267:272 -> onSensorChanged
+    61:63:void onSensorChanged(android.hardware.SensorEvent):276:278 -> onSensorChanged
+    64:64:void onSensorChanged(android.hardware.SensorEvent):286:286 -> onSensorChanged
+    65:65:void onSensorChanged(android.hardware.SensorEvent):288:288 -> onSensorChanged
+    66:68:void onSensorChanged(android.hardware.SensorEvent):299:301 -> onSensorChanged
+    69:70:void onSensorChanged(android.hardware.SensorEvent):305:306 -> onSensorChanged
+    71:73:void onSensorChanged(android.hardware.SensorEvent):309:311 -> onSensorChanged
+    74:74:void onSensorChanged(android.hardware.SensorEvent):315:315 -> onSensorChanged
+    75:75:void onSensorChanged(android.hardware.SensorEvent):317:317 -> onSensorChanged
+    76:76:void onSensorChanged(android.hardware.SensorEvent):319:319 -> onSensorChanged
+    1:3:void setListener(com.woyun.cues.MotionEngine$Listener):98:98 -> setListener
+    1:14:void start():102:102 -> start
+    15:16:void start():103:103 -> start
+    17:19:void start():104:104 -> start
+    20:26:void start():106:106 -> start
+    27:35:void start():107:107 -> start
+    36:45:void start():108:108 -> start
+    1:10:void stop():112:112 -> stop
+    11:12:void stop():113:113 -> stop
+    13:16:void stop():114:114 -> stop
+com.woyun.cues.MotionEngine$Listener -> com.woyun.cues.MotionEngine$Listener:
+# {"id":"sourceFile","fileName":"MotionEngine.java"}
+com.woyun.cues.OverlayService -> com.woyun.cues.OverlayService:
+# {"id":"sourceFile","fileName":"OverlayService.java"}
+    android.view.WindowManager wm -> a
+    com.woyun.cues.CuesView view -> b
+    com.woyun.cues.MotionEngine engine -> c
+    android.app.NotificationManager nm -> d
+    android.os.Handler handler -> e
+    boolean screenOff -> f
+    boolean receiverRegistered -> g
+    android.content.BroadcastReceiver screenReceiver -> h
+    java.lang.Runnable rotationTick -> i
+    java.lang.String CHANNEL_ID -> j
+    int NOTIF_ID -> k
+    1:1:void <clinit>():0:0 -> <clinit>
+    1:3:void <init>():32:32 -> <init>
+    4:14:void <init>():51:51 -> <init>
+    15:21:void <init>():55:55 -> <init>
+    22:29:void <init>():70:70 -> <init>
+    1:3:com.woyun.cues.MotionEngine -$$Nest$fgetengine(com.woyun.cues.OverlayService):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:3:android.os.Handler -$$Nest$fgethandler(com.woyun.cues.OverlayService):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:3:com.woyun.cues.CuesView -$$Nest$fgetview(com.woyun.cues.OverlayService):0:0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:3:void -$$Nest$fputscreenOff(com.woyun.cues.OverlayService,boolean):0:0 -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void -$$Nest$mapplySensorState(com.woyun.cues.OverlayService):0:0 -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:12:void applySensorState():194:194 -> f
+    13:18:void applySensorState():196:196 -> f
+    19:23:void applySensorState():198:198 -> f
+    24:31:void applySensorState():199:199 -> f
+    1:7:void attachOverlay():158:158 -> g
+    8:14:void attachOverlay():159:159 -> g
+    15:23:void attachOverlay():160:160 -> g
+    24:36:void attachOverlay():162:162 -> g
+    37:50:void attachOverlay():166:166 -> g
+    51:57:void attachOverlay():177:177 -> g
+    58:60:void attachOverlay():179:179 -> g
+    61:69:void attachOverlay():183:183 -> g
+    70:71:void attachOverlay():185:185 -> g
+    72:75:void attachOverlay():187:187 -> g
+    76:80:void attachOverlay():188:188 -> g
+    81:91:void attachOverlay():189:189 -> g
+    1:7:void broadcastState():357:357 -> h
+    8:14:void broadcastState():358:358 -> h
+    15:18:void broadcastState():359:359 -> h
+    1:9:android.app.Notification buildNotification():307:307 -> i
+    10:12:android.app.Notification buildNotification():308:308 -> i
+    13:21:android.app.Notification buildNotification():309:309 -> i
+    22:30:android.app.Notification buildNotification():311:311 -> i
+    31:39:android.app.Notification buildNotification():312:312 -> i
+    40:43:android.app.Notification buildNotification():311:311 -> i
+    44:50:android.app.Notification buildNotification():313:313 -> i
+    51:59:android.app.Notification buildNotification():314:314 -> i
+    60:63:android.app.Notification buildNotification():313:313 -> i
+    64:69:android.app.Notification buildNotification():317:317 -> i
+    70:76:android.app.Notification buildNotification():318:318 -> i
+    77:82:android.app.Notification buildNotification():320:320 -> i
+    83:88:android.app.Notification buildNotification():321:321 -> i
+    89:92:android.app.Notification buildNotification():323:323 -> i
+    93:111:android.app.Notification buildNotification():324:324 -> i
+    112:130:android.app.Notification buildNotification():325:325 -> i
+    131:134:android.app.Notification buildNotification():326:326 -> i
+    135:138:android.app.Notification buildNotification():327:327 -> i
+    139:142:android.app.Notification buildNotification():328:328 -> i
+    143:147:android.app.Notification buildNotification():329:329 -> i
+    148:152:android.app.Notification buildNotification():331:331 -> i
+    153:167:android.app.Notification buildNotification():334:334 -> i
+    168:178:android.app.Notification buildNotification():335:335 -> i
+    179:180:android.app.Notification buildNotification():337:337 -> i
+    181:191:android.app.Notification buildNotification():338:338 -> i
+    192:194:android.app.Notification buildNotification():337:337 -> i
+    195:199:android.app.Notification buildNotification():339:339 -> i
+    200:205:android.app.Notification buildNotification():340:340 -> i
+    206:216:android.app.Notification buildNotification():341:341 -> i
+    217:219:android.app.Notification buildNotification():339:339 -> i
+    220:224:android.app.Notification buildNotification():346:346 -> i
+    1:5:boolean canOverlay():134:134 -> j
+    1:7:void createChannel():296:296 -> k
+    8:13:void createChannel():297:297 -> k
+    14:27:void createChannel():298:298 -> k
+    28:35:void createChannel():299:299 -> k
+    36:39:void createChannel():300:300 -> k
+    40:42:void createChannel():301:301 -> k
+    43:45:void createChannel():302:302 -> k
+    46:51:void createChannel():303:303 -> k
+    1:5:void detachOverlay():245:245 -> l
+    6:10:void detachOverlay():247:247 -> l
+    11:12:void detachOverlay():250:250 -> l
+    13:18:void detachOverlay():252:252 -> l
+    1:3:int piFlags():0:0 -> m
+    1:5:void registerScreenReceiver():204:204 -> n
+    6:10:void registerScreenReceiver():206:206 -> n
+    11:15:void registerScreenReceiver():207:207 -> n
+    16:20:void registerScreenReceiver():208:208 -> n
+    21:22:void registerScreenReceiver():209:209 -> n
+    23:29:void registerScreenReceiver():212:212 -> n
+    30:33:void registerScreenReceiver():210:210 -> n
+    34:37:void registerScreenReceiver():212:212 -> n
+    38:40:void registerScreenReceiver():214:214 -> n
+    1:6:void startForegroundCompat():138:138 -> o
+    7:14:void startForegroundCompat():140:140 -> o
+    15:23:void startForegroundCompat():141:141 -> o
+    24:27:void startForegroundCompat():143:143 -> o
+    28:31:void startForegroundCompat():145:145 -> o
+    32:35:void startForegroundCompat():151:151 -> o
+    1:2:android.os.IBinder onBind(android.content.Intent):0:0 -> onBind
+    1:3:void onConfigurationChanged(android.content.res.Configuration):270:270 -> onConfigurationChanged
+    4:11:void onConfigurationChanged(android.content.res.Configuration):271:271 -> onConfigurationChanged
+    12:18:void onConfigurationChanged(android.content.res.Configuration):272:272 -> onConfigurationChanged
+    1:3:void onCreate():87:87 -> onCreate
+    4:13:void onCreate():88:88 -> onCreate
+    14:23:void onCreate():89:89 -> onCreate
+    24:26:void onCreate():90:90 -> onCreate
+    27:33:void onCreate():91:91 -> onCreate
+    34:41:void onCreate():92:92 -> onCreate
+    2:3:void onDestroy():257:257 -> onDestroy
+    4:5:void onDestroy():258:258 -> onDestroy
+    6:10:void onDestroy():259:259 -> onDestroy
+    11:17:void onDestroy():260:260 -> onDestroy
+    18:20:void onDestroy():261:261 -> onDestroy
+    21:23:void onDestroy():262:262 -> onDestroy
+    24:30:void onDestroy():263:263 -> onDestroy
+    31:33:void onDestroy():264:264 -> onDestroy
+    34:37:void onDestroy():265:265 -> onDestroy
+    1:5:void onMotion(float,float,float,float,float):279:279 -> onMotion
+    6:9:void onMotion(float,float,float,float,float):281:281 -> onMotion
+    1:5:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String):286:286 -> onSharedPreferenceChanged
+    6:13:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String):287:287 -> onSharedPreferenceChanged
+    14:23:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String):288:288 -> onSharedPreferenceChanged
+    24:31:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String):289:289 -> onSharedPreferenceChanged
+    32:41:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String):290:290 -> onSharedPreferenceChanged
+    1:3:int onStartCommand(android.content.Intent,int,int):97:99 -> onStartCommand
+    4:8:int onStartCommand(android.content.Intent,int,int):102:106 -> onStartCommand
+    9:10:int onStartCommand(android.content.Intent,int,int):108:109 -> onStartCommand
+    11:13:int onStartCommand(android.content.Intent,int,int):115:117 -> onStartCommand
+    14:15:int onStartCommand(android.content.Intent,int,int):120:121 -> onStartCommand
+    16:22:int onStartCommand(android.content.Intent,int,int):123:129 -> onStartCommand
+    2:3:void stopEverything():229:229 -> p
+    4:5:void stopEverything():230:230 -> p
+    6:10:void stopEverything():231:231 -> p
+    11:17:void stopEverything():232:232 -> p
+    18:20:void stopEverything():233:233 -> p
+    21:23:void stopEverything():234:234 -> p
+    24:27:void stopEverything():235:235 -> p
+    28:30:void stopEverything():237:237 -> p
+    31:34:void stopEverything():241:241 -> p
+    1:6:void unregisterScreenReceiver():220:220 -> q
+    7:8:void unregisterScreenReceiver():221:221 -> q
+    9:14:void unregisterScreenReceiver():223:223 -> q
+    1:13:void start(android.content.Context):364:364 -> start
+    14:19:void start(android.content.Context):365:365 -> start
+    20:23:void start(android.content.Context):366:366 -> start
+    24:27:void start(android.content.Context):368:368 -> start
+    1:13:void stop(android.content.Context):373:373 -> stop
+    14:17:void stop(android.content.Context):375:375 -> stop
+    18:26:void stop(android.content.Context):377:377 -> stop
+com.woyun.cues.OverlayService$0 -> b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:android.content.ComponentName OverlayService$0.m(android.content.Context,android.content.Intent):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.OverlayService$1 -> com.woyun.cues.OverlayService$a:
+# {"id":"sourceFile","fileName":"OverlayService.java"}
+    com.woyun.cues.OverlayService this$0 -> a
+    1:6:void <init>(com.woyun.cues.OverlayService):55:55 -> <init>
+    1:4:void onReceive(android.content.Context,android.content.Intent):58:58 -> onReceive
+    5:12:void onReceive(android.content.Context,android.content.Intent):59:59 -> onReceive
+    13:18:void onReceive(android.content.Context,android.content.Intent):60:60 -> onReceive
+    19:24:void onReceive(android.content.Context,android.content.Intent):61:61 -> onReceive
+    25:32:void onReceive(android.content.Context,android.content.Intent):62:62 -> onReceive
+    33:38:void onReceive(android.content.Context,android.content.Intent):63:63 -> onReceive
+    39:44:void onReceive(android.content.Context,android.content.Intent):64:64 -> onReceive
+com.woyun.cues.OverlayService$10 -> c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void OverlayService$10.m(android.app.NotificationManager,android.app.NotificationChannel):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.OverlayService$11 -> d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:6:android.app.Notification$Builder OverlayService$11.m(android.content.Context,java.lang.String):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.OverlayService$12 -> e:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:6:android.app.NotificationChannel OverlayService$12.m(java.lang.String,java.lang.CharSequence,int):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.OverlayService$13 -> f:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:3:void OverlayService$13.m():0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.OverlayService$2 -> com.woyun.cues.OverlayService$b:
+# {"id":"sourceFile","fileName":"OverlayService.java"}
+    com.woyun.cues.OverlayService this$0 -> a
+    1:6:void <init>(com.woyun.cues.OverlayService):70:70 -> <init>
+    1:16:void run():73:73 -> run
+    17:34:void run():74:74 -> run
+    35:46:void run():76:76 -> run
+com.woyun.cues.OverlayService$3 -> g:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void OverlayService$3.m(com.woyun.cues.OverlayService,int,android.app.Notification,int):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.OverlayService$4 -> h:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:3:void OverlayService$4.m(android.view.WindowManager$LayoutParams,int):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.OverlayService$5 -> i:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:5:android.content.Intent OverlayService$5.m(com.woyun.cues.OverlayService,android.content.BroadcastReceiver,android.content.IntentFilter,int):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.OverlayService$6 -> j:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void OverlayService$6.m(android.app.NotificationChannel,java.lang.String):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.OverlayService$7 -> k:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void OverlayService$7.m(android.app.NotificationChannel,boolean):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.OverlayService$8 -> l:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void OverlayService$8.m(android.app.NotificationChannel,android.net.Uri,android.media.AudioAttributes):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.OverlayService$9 -> m:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void OverlayService$9.m(android.app.NotificationChannel,boolean):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.Prefs -> com.woyun.cues.Prefs:
+# {"id":"sourceFile","fileName":"Prefs.java"}
+    1:4:void <init>():18:18 -> <init>
+    1:17:float dotScale(android.content.Context):34:34 -> dotScale
+    1:12:android.content.SharedPreferences get(android.content.Context):22:22 -> get
+    1:17:float sensitivity(android.content.Context):26:26 -> sensitivity
+    1:18:void setDotScale(android.content.Context,int):38:38 -> setDotScale
+    1:18:void setSensitivity(android.content.Context,int):30:30 -> setSensitivity
+    1:18:void setToneAutoStop(android.content.Context,boolean):64:64 -> setToneAutoStop
+    1:18:void setToneVolume(android.content.Context,int):56:56 -> setToneVolume
+    1:12:boolean toneAutoStop(android.content.Context):60:60 -> toneAutoStop
+    1:23:float toneVolume(android.content.Context):49:49 -> toneVolume
+    1:13:int toneVolumePercent(android.content.Context):42:42 -> toneVolumePercent
+com.woyun.cues.R -> com.woyun.cues.R:
+# {"id":"sourceFile","fileName":"R.java"}
+    1:4:void <init>():10:10 -> <init>
+com.woyun.cues.R$color -> com.woyun.cues.R$color:
+# {"id":"sourceFile","fileName":"R.java"}
+    1:4:void <init>():11:11 -> <init>
+com.woyun.cues.R$drawable -> com.woyun.cues.R$drawable:
+# {"id":"sourceFile","fileName":"R.java"}
+    1:4:void <init>():31:31 -> <init>
+com.woyun.cues.R$id -> com.woyun.cues.R$id:
+# {"id":"sourceFile","fileName":"R.java"}
+    1:4:void <init>():47:47 -> <init>
+com.woyun.cues.R$layout -> com.woyun.cues.R$layout:
+# {"id":"sourceFile","fileName":"R.java"}
+    1:4:void <init>():61:61 -> <init>
+com.woyun.cues.R$mipmap -> com.woyun.cues.R$mipmap:
+# {"id":"sourceFile","fileName":"R.java"}
+    1:4:void <init>():65:65 -> <init>
+com.woyun.cues.R$raw -> com.woyun.cues.R$raw:
+# {"id":"sourceFile","fileName":"R.java"}
+    1:4:void <init>():69:69 -> <init>
+com.woyun.cues.R$string -> com.woyun.cues.R$string:
+# {"id":"sourceFile","fileName":"R.java"}
+    1:4:void <init>():72:72 -> <init>
+com.woyun.cues.R$style -> com.woyun.cues.R$style:
+# {"id":"sourceFile","fileName":"R.java"}
+    1:4:void <init>():137:137 -> <init>
+com.woyun.cues.ToneService -> com.woyun.cues.ToneService:
+# {"id":"sourceFile","fileName":"ToneService.java"}
+    android.app.NotificationManager nm -> a
+    android.media.AudioTrack track -> b
+    android.os.PowerManager$WakeLock wakeLock -> c
+    android.os.Handler handler -> d
+    boolean streamMode -> e
+    java.lang.Thread writer -> f
+    boolean writerRunning -> g
+    int fadeToken -> h
+    java.lang.Runnable autoStop -> i
+    java.lang.String CHANNEL_ID -> j
+    int NOTIF_ID -> k
+    int SAMPLE_RATE -> l
+    int FADE_IN_MS -> m
+    int FADE_OUT_MS -> n
+    int FADE_STEPS -> o
+    1:1:void <clinit>():0:0 -> <clinit>
+    1:3:void <init>():45:45 -> <init>
+    4:15:void <init>():69:69 -> <init>
+    16:17:void <init>():78:78 -> <init>
+    18:25:void <init>():81:81 -> <init>
+    1:3:int -$$Nest$fgetfadeToken(com.woyun.cues.ToneService):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:3:android.media.AudioTrack -$$Nest$fgettrack(com.woyun.cues.ToneService):0:0 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:3:boolean -$$Nest$fgetwriterRunning(com.woyun.cues.ToneService):0:0 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void -$$Nest$mreleaseTrack(com.woyun.cues.ToneService,android.media.AudioTrack):0:0 -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:4:void -$$Nest$mstopEverything(com.woyun.cues.ToneService):0:0 -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:11:void acquireWakeLock():365:365 -> f
+    12:22:void acquireWakeLock():367:367 -> f
+    23:32:void acquireWakeLock():369:369 -> f
+    33:35:void acquireWakeLock():370:370 -> f
+    36:41:void acquireWakeLock():371:371 -> f
+    1:5:void applyVolume():354:354 -> g
+    6:11:void applyVolume():356:356 -> g
+    12:19:void applyVolume():358:358 -> g
+    1:7:void broadcastState():488:488 -> h
+    8:14:void broadcastState():489:489 -> h
+    15:18:void broadcastState():490:490 -> h
+    1:9:android.app.Notification buildNotification():447:447 -> i
+    10:14:android.app.Notification buildNotification():448:448 -> i
+    15:22:android.app.Notification buildNotification():449:449 -> i
+    23:31:android.app.Notification buildNotification():450:450 -> i
+    32:41:android.app.Notification buildNotification():451:451 -> i
+    42:45:android.app.Notification buildNotification():450:450 -> i
+    46:51:android.app.Notification buildNotification():454:454 -> i
+    52:58:android.app.Notification buildNotification():455:455 -> i
+    59:64:android.app.Notification buildNotification():457:457 -> i
+    65:70:android.app.Notification buildNotification():458:458 -> i
+    71:77:android.app.Notification buildNotification():460:460 -> i
+    78:88:android.app.Notification buildNotification():461:461 -> i
+    89:96:android.app.Notification buildNotification():462:462 -> i
+    97:101:android.app.Notification buildNotification():463:463 -> i
+    102:106:android.app.Notification buildNotification():464:464 -> i
+    107:110:android.app.Notification buildNotification():465:465 -> i
+    111:115:android.app.Notification buildNotification():466:466 -> i
+    116:120:android.app.Notification buildNotification():468:468 -> i
+    121:125:android.app.Notification buildNotification():471:471 -> i
+    126:131:android.app.Notification buildNotification():472:472 -> i
+    132:142:android.app.Notification buildNotification():473:473 -> i
+    143:145:android.app.Notification buildNotification():471:471 -> i
+    146:150:android.app.Notification buildNotification():477:477 -> i
+    1:7:void createChannel():417:417 -> j
+    8:13:void createChannel():418:418 -> j
+    14:27:void createChannel():419:419 -> j
+    28:35:void createChannel():420:420 -> j
+    36:39:void createChannel():421:421 -> j
+    40:42:void createChannel():422:422 -> j
+    43:45:void createChannel():423:423 -> j
+    46:51:void createChannel():424:424 -> j
+    1:5:void fadeIn():273:273 -> k
+    6:11:void fadeIn():275:275 -> k
+    12:15:void fadeIn():276:276 -> k
+    16:27:void fadeIn():277:277 -> k
+    28:31:void fadeIn():295:295 -> k
+    2:11:short[] loadPcm():251:251 -> l
+    12:21:short[] loadPcm():252:252 -> l
+    22:23:short[] loadPcm():253:253 -> l
+    24:36:short[] loadPcm():255:255 -> l
+    37:40:short[] loadPcm():256:256 -> l
+    41:45:short[] loadPcm():257:257 -> l
+    46:62:short[] loadPcm():258:258 -> l
+    63:78:short[] loadPcm():265:265 -> l
+    79:81:short[] loadPcm():269:269 -> l
+    82:85:short[] loadPcm():265:265 -> l
+    1:3:int piFlags():0:0 -> m
+    4:6:void releaseQuietly(android.media.AudioTrack):330:330 -> n
+    7:9:void releaseQuietly(android.media.AudioTrack):334:334 -> n
+    10:12:void releaseQuietly(android.media.AudioTrack):338:338 -> n
+    13:16:void releaseQuietly(android.media.AudioTrack):342:342 -> n
+    1:3:void releaseTrack(android.media.AudioTrack):349:349 -> o
+    4:7:void releaseTrack(android.media.AudioTrack):350:350 -> o
+    1:2:android.os.IBinder onBind(android.content.Intent):0:0 -> onBind
+    1:3:void onCreate():95:95 -> onCreate
+    4:13:void onCreate():96:96 -> onCreate
+    14:16:void onCreate():97:97 -> onCreate
+    17:24:void onCreate():98:98 -> onCreate
+    2:3:void onDestroy():401:401 -> onDestroy
+    4:10:void onDestroy():402:402 -> onDestroy
+    11:13:void onDestroy():403:403 -> onDestroy
+    14:16:void onDestroy():404:404 -> onDestroy
+    17:23:void onDestroy():405:405 -> onDestroy
+    24:26:void onDestroy():406:406 -> onDestroy
+    27:30:void onDestroy():407:407 -> onDestroy
+    1:12:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String):412:412 -> onSharedPreferenceChanged
+    3:9:int onStartCommand(android.content.Intent,int,int):103:103 -> onStartCommand
+    10:18:int onStartCommand(android.content.Intent,int,int):104:104 -> onStartCommand
+    19:22:int onStartCommand(android.content.Intent,int,int):105:105 -> onStartCommand
+    23:25:int onStartCommand(android.content.Intent,int,int):110:110 -> onStartCommand
+    26:30:int onStartCommand(android.content.Intent,int,int):111:111 -> onStartCommand
+    31:36:int onStartCommand(android.content.Intent,int,int):112:112 -> onStartCommand
+    37:40:int onStartCommand(android.content.Intent,int,int):113:113 -> onStartCommand
+    41:42:int onStartCommand(android.content.Intent,int,int):116:116 -> onStartCommand
+    43:45:int onStartCommand(android.content.Intent,int,int):117:117 -> onStartCommand
+    46:48:int onStartCommand(android.content.Intent,int,int):118:118 -> onStartCommand
+    49:52:int onStartCommand(android.content.Intent,int,int):119:119 -> onStartCommand
+    1:3:void releaseTrackFaded():300:300 -> p
+    4:5:void releaseTrackFaded():301:301 -> p
+    6:14:void releaseTrackFaded():302:302 -> p
+    15:18:void releaseTrackFaded():304:304 -> p
+    19:30:void releaseTrackFaded():305:305 -> p
+    31:34:void releaseTrackFaded():317:317 -> p
+    1:3:void releaseTrackNow():321:321 -> q
+    4:5:void releaseTrackNow():322:322 -> q
+    6:11:void releaseTrackNow():323:323 -> q
+    12:15:void releaseTrackNow():324:324 -> q
+    1:5:void releaseWakeLock():377:377 -> r
+    6:17:void releaseWakeLock():379:379 -> r
+    18:20:void releaseWakeLock():382:382 -> r
+    1:7:void scheduleAutoStop():125:125 -> s
+    8:13:void scheduleAutoStop():126:126 -> s
+    14:24:void scheduleAutoStop():127:127 -> s
+    1:13:void start(android.content.Context):495:495 -> start
+    14:19:void start(android.content.Context):496:496 -> start
+    20:23:void start(android.content.Context):497:497 -> start
+    24:27:void start(android.content.Context):499:499 -> start
+    1:13:void stop(android.content.Context):504:504 -> stop
+    14:17:void stop(android.content.Context):506:506 -> stop
+    18:26:void stop(android.content.Context):508:508 -> stop
+    1:6:void startForegroundCompat():428:428 -> t
+    7:13:void startForegroundCompat():430:430 -> t
+    14:22:void startForegroundCompat():431:431 -> t
+    23:26:void startForegroundCompat():433:433 -> t
+    27:30:void startForegroundCompat():435:435 -> t
+    31:34:void startForegroundCompat():440:440 -> t
+    3:7:boolean startPlayback():133:133 -> u
+    8:14:boolean startPlayback():134:134 -> u
+    15:22:boolean startPlayback():135:135 -> u
+    23:26:boolean startPlayback():139:139 -> u
+    27:32:boolean startPlayback():140:140 -> u
+    33:36:boolean startPlayback():141:141 -> u
+    37:40:boolean startPlayback():142:142 -> u
+    41:44:boolean startPlayback():143:143 -> u
+    45:49:boolean startPlayback():144:144 -> u
+    50:56:boolean startPlayback():145:145 -> u
+    57:61:boolean startPlayback():146:146 -> u
+    62:65:boolean startPlayback():147:147 -> u
+    66:71:boolean startPlayback():148:148 -> u
+    72:83:boolean startPlayback():155:155 -> u
+    84:89:boolean startPlayback():157:157 -> u
+    90:94:boolean startPlayback():158:158 -> u
+    95:97:boolean startPlayback():159:159 -> u
+    98:103:boolean startPlayback():160:160 -> u
+    104:111:boolean startPlayback():161:161 -> u
+    112:114:boolean startPlayback():164:164 -> u
+    115:117:boolean startPlayback():165:165 -> u
+    118:119:boolean startPlayback():166:166 -> u
+    120:121:boolean startPlayback():167:167 -> u
+    122:125:boolean startPlayback():168:168 -> u
+    126:133:boolean startPlayback():162:162 -> u
+    134:141:boolean startPlayback():160:160 -> u
+    142:159:boolean startPlayback():159:159 -> u
+    160:179:boolean startPlayback():157:157 -> u
+    180:183:boolean startPlayback():173:173 -> u
+    184:187:boolean startPlayback():181:181 -> u
+    188:193:boolean startPlayback():183:183 -> u
+    194:203:boolean startPlayback():184:184 -> u
+    204:209:boolean startPlayback():186:186 -> u
+    210:212:boolean startPlayback():187:187 -> u
+    213:215:boolean startPlayback():188:188 -> u
+    216:217:boolean startPlayback():189:189 -> u
+    218:219:boolean startPlayback():190:190 -> u
+    220:222:boolean startPlayback():191:191 -> u
+    223:228:boolean startPlayback():192:192 -> u
+    229:239:boolean startPlayback():186:186 -> u
+    240:242:boolean startPlayback():197:197 -> u
+    243:245:boolean startPlayback():201:201 -> u
+    2:3:void startStreamWriter(short[]):208:208 -> v
+    4:17:void startStreamWriter(short[]):209:209 -> v
+    18:21:void startStreamWriter(short[]):231:231 -> v
+    2:3:void stopEverything():386:386 -> w
+    4:10:void stopEverything():387:387 -> w
+    11:13:void stopEverything():388:388 -> w
+    14:16:void stopEverything():389:389 -> w
+    17:20:void stopEverything():390:390 -> w
+    21:23:void stopEverything():392:392 -> w
+    24:27:void stopEverything():396:396 -> w
+    2:3:void stopWriter():236:236 -> x
+    4:6:void stopWriter():237:237 -> x
+    7:10:void stopWriter():238:238 -> x
+    11:14:void stopWriter():241:241 -> x
+com.woyun.cues.ToneService$0 -> n:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    1:4:void ToneService$0.m(com.woyun.cues.ToneService,int,android.app.Notification,int):0:0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.woyun.cues.ToneService$1 -> com.woyun.cues.ToneService$a:
+# {"id":"sourceFile","fileName":"ToneService.java"}
+    com.woyun.cues.ToneService this$0 -> a
+    1:6:void <init>(com.woyun.cues.ToneService):81:81 -> <init>
+    1:10:void run():84:84 -> run
+com.woyun.cues.ToneService$2 -> com.woyun.cues.ToneService$b:
+# {"id":"sourceFile","fileName":"ToneService.java"}
+    short[] val$pcm -> a
+    com.woyun.cues.ToneService this$0 -> b
+    1:8:void <init>(com.woyun.cues.ToneService,short[]):209:209 -> <init>
+    1:9:void run():212:212 -> run
+    10:17:void run():214:214 -> run
+    18:27:void run():216:216 -> run
+    28:37:void run():217:217 -> run
+    38:42:void run():220:220 -> run
+com.woyun.cues.ToneService$3 -> com.woyun.cues.ToneService$c:
+# {"id":"sourceFile","fileName":"ToneService.java"}
+    int val$token -> a
+    android.media.AudioTrack val$t -> b
+    float val$target -> c
+    com.woyun.cues.ToneService this$0 -> d
+    1:12:void <init>(com.woyun.cues.ToneService,int,android.media.AudioTrack,float):277:277 -> <init>
+    6:16:void run():282:282 -> run
+    17:30:void run():283:283 -> run
+    31:36:void run():284:284 -> run
+    37:47:void run():288:288 -> run
+    48:55:void run():290:290 -> run
+com.woyun.cues.ToneService$4 -> com.woyun.cues.ToneService$d:
+# {"id":"sourceFile","fileName":"ToneService.java"}
+    android.media.AudioTrack val$t -> a
+    float val$from -> b
+    com.woyun.cues.ToneService this$0 -> c
+    1:10:void <init>(com.woyun.cues.ToneService,android.media.AudioTrack,float):305:305 -> <init>
+    5:18:void run():310:310 -> run
+    19:24:void run():311:311 -> run
+    25:32:void run():315:315 -> run

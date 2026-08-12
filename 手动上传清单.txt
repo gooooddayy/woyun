@@ -1,0 +1,65 @@
+========================================
+我晕 WoYun 手动上传清单（GitHub 网页版）
+更新日期：2026-08-12
+========================================
+
+操作步骤：
+1. 打开 https://github.com/gooooddayy/woyun
+2. 点右上角 "Add file" -> "Upload files"
+3. 打开本地文件夹：
+   C:\Users\Administrator\WorkBuddy\2026-08-10-17-46-53\woyun-publish
+4. Ctrl+A 全选 -> 按住 Ctrl 点一下 "keystore" 文件夹，取消选中
+5. 把选中内容拖到浏览器上传区
+6. 底部填 commit 信息：init: upload WoYun app materials
+   选 "Commit directly to the main branch" -> 点绿色 Commit changes
+
+----------------------------------------
+【必须上传】（核心物料）
+----------------------------------------
+[ ] woyun.apk                  安装包（用户下载核心，311KB）
+[ ] README.md                  首页说明（会覆盖旧版"五云"标题）
+[ ] 应用简介.md                应用介绍
+[ ] 隐私政策.html              合规必备
+
+----------------------------------------
+【建议上传】（文档/合规）
+----------------------------------------
+[ ] privacy-policy.html        英文版隐私政策
+[ ] 备案材料.md                App 备案参考
+[ ] SELF_CHECK.md              安全自检报告
+[ ] .gitignore                 git 忽略规则（告诉别人哪些不该传）
+
+----------------------------------------
+【建议上传】（源码/构建）
+----------------------------------------
+[ ] app/                       全部源码（Java/XML/布局/资源/图标/音频）
+[ ] tools/                     构建工具脚本（r8.jar、proguard.txt 等）
+[ ] 软著/                      两个 PDF（源程序 + 软件说明书）
+[ ] build.sh                   无 Gradle 构建脚本
+[ ] build.gradle
+[ ] settings.gradle
+[ ] gradle/
+[ ] gradle.properties
+[ ] mapping.txt                混淆映射表
+
+----------------------------------------
+【绝对不要上传】
+----------------------------------------
+[ X ] keystore/                签名密钥！泄露=任何人可冒充你发 App
+[ X ] keystore/woyun.jks
+[ X ] .git/                    git 内部数据，Windows 默认隐藏，不用传
+[ X ] build/                   构建临时文件（现在没有，以后出现了也别传）
+
+----------------------------------------
+【说明】
+----------------------------------------
+- 本次截图相比旧清单已删除：index.html、PUSH_GUIDE.md、双击推送到GitHub.bat
+  这 3 个都是辅助文件，删了不影响仓库上架。
+- 所有文件均 < 25MB，GitHub 网页上传无压力。
+- 不要拖最外层 woyun-publish 文件夹本身，否则仓库里多一层目录。
+- 若拖文件夹失败，分批上传：先 .apk + .md + .html，再 app/，再 tools/ + 软著/。
+- 上传后去 Releases 把 woyun.apk 挂为下载资产（可选）。
+- 网络连不上 GitHub 时换网络/代理/稍后重试。
+- APK 临时下载页仍在线：
+  https://a0bbe38feb11460a8586ede900b0f3b0.sh1.agentos-app.net
+========================================
