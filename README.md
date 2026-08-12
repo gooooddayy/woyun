@@ -125,5 +125,6 @@
 ```
 
 关键点：**手机姿态是任意的**。竖着拿时车辆的前后加速度几乎垂直于屏幕，如果直接用设备坐标系，屏幕上根本看不出加减速。所以必须先把加速度换算到车辆坐标系，再固定映射为「前后 → 屏幕上下」「左右 → 屏幕左右」。
-<img width="1264" height="3785" alt="Screenshot_2026-08-12-15-18-49-37" src="https://github.com/user-attachments/assets/aa4895dd-eac1-49bd-9590-f1e7d216fb26" />
+<img width="315" height="902" alt="image" src="https://github.com/user-attachments/assets/214f1132-ff89-41ea-bea0-80c2d5c5bc24" />
+
 
