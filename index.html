@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我晕 WoYun · 防晕车出行助手</title>
+<style>
+  :root{
+    --bg:#0f1420; --card:#1a2233; --accent:#4da3ff; --ok:#3ddc84;
+    --txt:#e8edf5; --sub:#9fb0c8; --line:#243049;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    background:linear-gradient(160deg,#0f1420,#16203a);
+    color:var(--txt); min-height:100vh; padding:32px 16px;
+  }
+  .wrap{max-width:720px;margin:0 auto;}
+  .hero{text-align:center;padding:24px 0 8px;}
+  .hero h1{font-size:36px;letter-spacing:2px;}
+  .hero .en{color:var(--sub);letter-spacing:4px;font-size:13px;margin-top:6px;}
+  .tag{
+    display:inline-block;margin-top:14px;padding:6px 14px;border:1px solid var(--line);
+    border-radius:999px;color:var(--sub);font-size:13px;
+  }
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;margin-top:20px;}
+  .dl{text-align:center;}
+  .btn{
+    display:inline-block;margin-top:14px;padding:14px 34px;background:var(--accent);color:#06101f;
+    font-weight:700;font-size:17px;border-radius:12px;text-decoration:none;transition:.15s;
+  }
+  .btn:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(77,163,255,.35);}
+  .btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent);margin-left:10px;}
+  .meta{color:var(--sub);font-size:12px;margin-top:12px;line-height:1.7;}
+  .feat{display:flex;gap:14px;align-items:flex-start;margin:14px 0;}
+  .feat .ico{font-size:26px;flex-shrink:0;}
+  .feat h3{font-size:16px;margin-bottom:4px;}
+  .feat p{color:var(--sub);font-size:14px;line-height:1.6;}
+  .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;}
+  .links a{color:var(--accent);text-decoration:none;font-size:14px;border:1px solid var(--line);padding:8px 14px;border-radius:10px;}
+  .links a:hover{background:#1f2c44;}
+  .ok{color:var(--ok);}
+  h2.sec{font-size:19px;margin-bottom:6px;}
+  footer{text-align:center;color:var(--sub);font-size:12px;margin-top:26px;line-height:1.8;}
+  code{background:#0c1322;padding:2px 6px;border-radius:6px;color:#bcd2ef;font-size:12px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <h1>我晕 · WoYun</h1>
+    <div class="en">ANTI-MOTION-SICKNESS COMPANION</div>
+    <div class="tag">纯本地 · 无广告 · 不联网 · 坐车也能玩手机</div>
+  </div>
+
+  <!-- 下载引导 -->
+  <div class="card dl">
+    <h2 class="sec">下载与获取</h2>
+    <p style="color:var(--sub);margin-top:8px;font-size:14px;">
+      适用于 Android 7.0 及以上 · 已签名 · 约 310 KB
+    </p>
+    <a class="btn" href="https://github.com/gooooddayy/woyun" target="_blank" rel="noopener">前往 GitHub 仓库下载</a>
+    <a class="btn ghost" href="https://github.com/gooooddayy/woyun/releases" target="_blank" rel="noopener">查看 Releases</a>
+    <div class="meta">
+      安装时需允许「未知来源」，首次启动授予悬浮窗权限即可。<br>
+      仓库地址：<code>https://github.com/gooooddayy/woyun</code>
+    </div>
+  </div>
+
+  <!-- 简介 -->
+  <div class="card">
+    <h2 class="sec">这是什么</h2>
+    <p style="color:var(--sub);font-size:14px;line-height:1.7;margin-top:8px;">
+      「我晕」是一款用<b style="color:var(--txt)">屏幕视觉锚点 + 100Hz 低频舒缓音</b>帮你缓解晕车、晕船、晕机的本地小工具。
+      不联网、无广告、不收集任何个人信息，坐车坐船坐飞机也能安心刷手机。
+    </p>
+  </div>
+
+  <!-- 工作原理 -->
+  <div class="card">
+    <h2 class="sec">工作原理</h2>
+    <div class="feat">
+      <div class="ico">🎯</div>
+      <div>
+        <h3>视觉锚点（核心）</h3>
+        <p>屏幕常驻一个柔光圆点，给眼睛一个稳定的视觉参考，削弱内耳前庭与眼睛看到的静止景物之间的感官冲突，从而减轻眩晕。</p>
+      </div>
+    </div>
+    <div class="feat">
+      <div class="ico">🔊</div>
+      <div>
+        <h3>低频音（核心）</h3>
+        <p>约 100Hz 纯音循环播放，音量可调、带淡入淡出，作为舒缓背景音进一步平复恶心感。两者可独立开关、自由组合。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 功能特点 -->
+  <div class="card">
+    <h2 class="sec">功能特点</h2>
+    <div class="feat"><div class="ico">🌟</div><div><h3>两个核心功能</h3><p>视觉圆点（削弱感官冲突）+ 100Hz 低频音（舒缓放松），可独立开关、按需组合。</p></div></div>
+    <div class="feat"><div class="ico">🔒</div><div><h3>本地隐私</h3><p><span class="ok">纯本地运行，不联网、不收集任何个人信息、无第三方 SDK</span>，关掉即用、不留痕迹。</p></div></div>
+    <div class="feat"><div class="ico">🚫</div><div><h3>无广告 · 贴心</h3><p>界面干净，没有广告、弹窗与推送打扰。</p></div></div>
+    <div class="feat"><div class="ico">👆</div><div><h3>简单使用</h3><p>一键开关，无需注册登录，老人小孩都能上手。</p></div></div>
+    <div class="feat"><div class="ico">📱</div><div><h3>坐车也能玩手机</h3><p>悬浮窗叠加在所有应用之上，导航、刷视频、回消息同时照常进行。</p></div></div>
+  </div>
+
+  <!-- 适合谁 -->
+  <div class="card">
+    <h2 class="sec">适合的用户</h2>
+    <p style="color:var(--sub);font-size:14px;line-height:1.7;margin-top:8px;">
+      老人、小孩，以及公交 / 汽车 / 自驾、飞机、轮船出行时易晕车、晕机、晕船的人群。
+      只要你会因为「车船机舱在动、眼睛看近处静止」而头晕恶心，都适合提前开着它。
+    </p>
+  </div>
+
+
+  <footer>
+    「我晕」是一款日常辅助小工具，不替代医疗。<br>
+    孕妇、严重耳疾或前庭疾病患者，请遵医嘱。<br>
+    © WoYun · 纯本地 · 无广告 · 不联网
+  </footer>
+
+</div>
+</body>
+</html>
